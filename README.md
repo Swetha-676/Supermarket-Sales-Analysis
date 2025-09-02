@@ -1,51 +1,70 @@
-# 📊 Supermarket Sales Data Analysis using Python
+# 🛒 Supermarket Sales Data Analysis using Python
 
-This project analyzes supermarket sales data to uncover customer behavior, 
-top-performing branches, and product-line trends. The goal is to derive 
-business insights using Python libraries for data cleaning, analysis, and visualization.  
-
----
-
-## 🔹 Tools Used
-- Python  
-- Pandas  
-- Matplotlib  
-- Seaborn  
+This project analyzes supermarket sales data to uncover **customer behavior, top-performing branches, and product-line trends**.  
+It demonstrates **data analysis, visualization, and insights generation** using Python.
 
 ---
 
-## 🔹 Methodology
+## 📌 Tools & Libraries
+- Python 🐍
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## 📊 Dataset
+The dataset contains:
+- **Invoice ID, Branch, City**
+- **Customer type, Gender**
+- **Product line, Unit price, Quantity, Total**
+- **Date, Time, Payment**
+
+*(Sample dataset used for demo; can be extended to real datasets)*
+
+---
+
+## 🔎 Methodology
 1. **Data Cleaning**  
-   - Converted Date column to datetime  
-   - Extracted Month, Day, Weekday for analysis  
+   - Converted dates to datetime  
+   - Extracted month & weekday features  
 
 2. **Exploratory Data Analysis (EDA)**  
-   - Sales by product line  
-   - Sales by gender & customer type  
-   - Sales trends by month  
-   - Branch vs product line performance  
+   - Grouped sales by product line, gender, branch, and customer type  
 
 3. **Visualization**  
-   - Bar plots, pie charts, line graphs  
-   - Heatmap for branch vs product line comparison  
+   - Bar charts, pie charts, and heatmaps to highlight trends  
 
 ---
 
-## 🔹 Results & Insights
-1. **January** had the highest sales, while **March** had the lowest.  
-2. **Food & Beverages** is the top-selling product line.  
-3. **Female customers** contribute more to sales compared to males.  
-4. **Members (loyal customers)** spend more than normal customers.  
-5. **Branch A** is strong in Health & Beauty and Sports, while **Branch C** dominates Food & Beverages.  
+## 📈 Results & Insights
+- **January** had the highest sales, while **March** saw the lowest  
+- **Food & Beverages** was the best-selling product line  
+- **Female customers** contributed more sales than males  
+- **Members (loyal customers)** spent more than normal customers  
+- **Branch A** performed well in Health & Beauty & Sports;  
+  **Branch C** dominated in Food & Beverages  
 
 ---
 
-## 🔹 Conclusion
-- Focus on **Food & Beverages** for higher revenue.  
-- Marketing campaigns should target **female customers and members**.  
-- **Branch A** → sports/beauty focus, **Branch C** → food focus.  
-- Sales dip after January → promotions needed in March.  
+## ✅ Conclusion
+- Focus on **Food & Beverages** to boost revenue  
+- Target **female customers & members** in marketing campaigns  
+- Branch-specific strategies:  
+  - Branch A → promote Health & Beauty, Sports  
+  - Branch C → strengthen Food & Beverages  
+- Introduce **discounts/promotions in March** to increase sales  
 
 ---
 
-📌 Both the **Notebook (.ipynb)** and the **PDF Report** are included in this repository.  
+## 📂 Repository Structure
+- `Supermarket_Sales_Analysis.ipynb` → Jupyter Notebook (main analysis)  
+- `Supermarket_Sales_Report.pdf` → Polished project report (ready to share)  
+- `analysis_script.py` → Python script version (optional)  
+
+---
+
+## 🌟 How to Use
+1. Clone this repo  
+   ```bash
+   git clone https://github.com/Swetha-676/Supermarket-Sales-Analysis.git
