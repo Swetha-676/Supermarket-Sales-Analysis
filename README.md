@@ -1,4 +1,5 @@
 # 🛒 Supermarket Sales Data Analysis using Python  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 
 This project analyzes supermarket sales data to uncover customer behavior, top-performing branches, and product-line trends.  
 It demonstrates data analysis, visualization, and insights generation using Python.  
