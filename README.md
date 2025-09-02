@@ -48,6 +48,22 @@ The dataset contains:
 
 ---
 
+## 📊 Visualizations  
+
+### 🔹 Sales by Product Line  
+![Sales by Product](bar_chart.png)  
+
+### 🔹 Sales by Gender  
+![Sales by Gender](pie_chart.png)  
+
+### 🔹 Sales by Branch & Product Line (Heatmap)  
+![Sales by Branch Heatmap](heatmap.png)  
+
+### 🔹 Sales by Month  
+![Sales by Month](monthly_sales.png)  
+
+---
+
 ## ✅ Conclusion  
 - Focus on **Food & Beverages** to boost revenue  
 - Target **female customers & members** in marketing campaigns  
@@ -62,6 +78,7 @@ The dataset contains:
 - `Supermarket_Sales_Analysis.ipynb` → Jupyter Notebook (main analysis)  
 - `Supermarket_Sales_Report.pdf` → Polished project report (ready to share)  
 - `analysis_script.py` → Python script version (optional)  
+- `bar_chart.png`, `pie_chart.png`, `heatmap.png`, `monthly_sales.png` → Graphs for README  
 
 ---
 
